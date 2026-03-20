@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: 'Inter, sans-serif', 'Space Grotesk, sans-serif';
+  font-family: "Monserrat, sans serif";
   background: black;
   background: url(PierisJaponica5.png);
   width: 100%;
@@ -113,11 +113,10 @@ ul {
    align-items: center;
    font-size:larger;
    font-weight: bold;
-   color: rgb(255, 255, 255);
-   text-shadow: 2px 2px 10px rgb(188, 230, 187);
+   color: rgb(253, 238, 27);
+   text-shadow: 2px 2px 12px rgb(181, 240, 186);
    padding: 4vh;
    background: url(PierisJaponica2.png);
-   font-style: "monserrat";
 }
 
 .container {
