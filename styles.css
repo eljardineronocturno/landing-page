@@ -116,7 +116,7 @@ ul {
    font-weight: bold;
    color: rgb(255, 255, 255);
    text-shadow: 2px 2px 10px rgb(188, 230, 187);
-   padding: 40px;
+   padding: 4vh;
    background: url(PierisJaponica2.png);
    font-style: "monserrat";
 }
@@ -137,7 +137,7 @@ ul {
     justify-content: center;
     align-items:center;
     color: black;
-    height: 80px;
+    height: 9vh;
     background-color: lightgreen;
     margin-top: 12vh;
 }
