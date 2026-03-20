@@ -4,17 +4,15 @@ body {
   background: black;
   color: white;
   background: url(PierisJaponica5.png);
-  position: fixed;
-  top: 0;
-  left: 0;
   width: 100%;
   height: 100%;
 }
 
 img {
-    max-width: 220px;
-    max-height: 220px;
+    width: 27vh;
+    height: auto;
 }
+
 
 /* Splash full screen con imagen de fondo */
 #splash {
@@ -86,8 +84,8 @@ h1 {
     flex-direction: column;
     justify-content:flex-start;
     align-items:center;
-    height: 500px;
-    width: 230px;
+    height: 55vh;
+    width: 25vh;
     box-shadow: 2px 2px 5px white;
     align-items: center;
     background: rgb(110, 182, 110);
@@ -141,12 +139,13 @@ ul {
     color: black;
     height: 80px;
     background-color: lightgreen;
-    margin-top: 148px;
+    margin-top: 108px;
 }
 
 .cards {
     display: flex;
     flex-direction: column;
+    gap: 680px;
 }
 
 .foot-container {
