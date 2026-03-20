@@ -11,6 +11,11 @@ body {
   height: 100%;
 }
 
+img {
+    max-width: 220px;
+    max-height: 220px;
+}
+
 /* Splash full screen con imagen de fondo */
 #splash {
   position: fixed;
@@ -80,7 +85,11 @@ body {
     box-shadow: 2px 2px 5px white;
     align-items: center;
     background: rgb(110, 182, 110);
-    width: 160px;
+}
+
+ul {
+    color: aliceblue;
+    list-style: none;
 }
 
 
@@ -94,13 +103,18 @@ body {
    display: flex;
    flex-direction: column;
    align-items: center;
-   
    padding: 40px;
-   background: url(PierisJaponica5.png)
+   background: url(PierisJaponica2.png);
+   font-style: italic;
 }
 
 .container {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
 }
