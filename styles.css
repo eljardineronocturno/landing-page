@@ -80,10 +80,10 @@ h1 {
 .sidebar {
     display: flex;
     flex-direction: column;
-    justify-content:flex-start;
+    justify-content:center;
     align-items:center;
     color: white;
-    height: 56vh;
+    height: 58vh;
     width: 26vh;
     box-shadow: 6px 6px 15px rgb(216, 255, 207);
     align-items: center;
@@ -110,7 +110,9 @@ ul {
 #header {
    font-family: "UnifrakturMaguntia", "UnifrakturCook", serif;
    display: flex;
+   border-bottom: 3px groove darkgreen;
    flex-direction: column;
+   justify-content: center;
    align-items: center;
    font-size:larger;
    font-weight: bold;
@@ -123,11 +125,28 @@ ul {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    justify-content: space-between;
     gap: 3vh;
+}
+
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family:'Monserrat', serif;
+  border-radius: 9px;
+  width: 27vh;
+  height: 70vh;
+  box-shadow: 1px 1px 11px rgb(52, 90, 52);
+  background: rgb(58, 100, 58);
+  color: rgb(144, 204, 144);
+  padding: 1vh;
 }
 
 .container {
     display: flex;
+    flex: 0;
     flex-direction: row;
     justify-content:space-evenly;
     align-items: center;
@@ -156,5 +175,5 @@ ul {
 #card1, #card2 {
     display: flex;
     box-shadow: 6px 6px 16px rgb(216 255 207);
-
+    gap: 10vh
 }
