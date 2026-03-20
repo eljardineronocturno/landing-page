@@ -2,7 +2,6 @@ body {
   margin: 0;
   font-family: 'Inter, sans-serif', 'Space Grotesk, sans-serif';
   background: black;
-  color: white;
   background: url(PierisJaponica5.png);
   width: 100%;
   height: 100%;
@@ -84,9 +83,9 @@ h1 {
     flex-direction: column;
     justify-content:flex-start;
     align-items:center;
-    height: 55vh;
-    width: 25vh;
-    box-shadow: 2px 2px 5px white;
+    height: 56vh;
+    width: 26vh;
+    box-shadow: 6px 6px 15px rgb(216, 255, 207);
     align-items: center;
     background: rgb(110, 182, 110);
     margin: 0;
@@ -144,6 +143,13 @@ ul {
 
 .cards {
     display: flex;
-    flex-direction: column;
-    gap: 680px;
+    gap: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#card1, #card2 {
+    display: flex;
+    box-shadow: 6px 6px 16px rgb(216 255 207);
+
 }
