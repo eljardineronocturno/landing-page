@@ -148,3 +148,9 @@ ul {
     display: flex;
     flex-direction: column;
 }
+
+.foot-container {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
