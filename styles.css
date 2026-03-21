@@ -126,7 +126,7 @@ ul {
 
 .supercontainer {
     display: flex;
-    padding: 5px;
+    padding: 15px;
     flex: 1;
     flex-wrap: wrap;
     flex-direction: column;
@@ -148,7 +148,7 @@ ul {
   margin: 0;
   box-shadow: 1px 1px 19px rgb(52, 90, 52);
   color: rgb(171, 189, 163);
-  padding: 1vh;
+  padding: 3px;
 }
 
 .c1 {
