@@ -2,8 +2,7 @@ body {
   margin: 0;
   font-family: "Cormorant", "Source Serif 4", serif;
   background: url(PierisJaponica6.png);
-  background-size: cover;
-  background-position: center;
+  background-position: center 15%;
   width: 100%;
   min-height: 100dvh;
 }
@@ -210,12 +209,12 @@ ul {
   }
 
   .cards {
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
   }
 
   #card1, #card2 {
-    flex-direction: column;
+    flex-direction: row;
     gap: 20px; /* antes 10vh 💀 */
   }
 
