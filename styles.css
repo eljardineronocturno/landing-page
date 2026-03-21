@@ -126,6 +126,7 @@ ul {
 
 .supercontainer {
     display: flex;
+    padding: 5px;
     flex: 1;
     flex-wrap: wrap;
     flex-direction: column;
