@@ -196,7 +196,7 @@ ul {
 
 #card1, #card2 {
     display: flex;
-    box-shadow: 1px 1px 19px rgb(52, 90, 52);
+    box-shadow: 1px 1px 20px rgb(52, 90, 52);
     gap: 10vh
 }
 
