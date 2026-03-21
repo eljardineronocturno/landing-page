@@ -1,7 +1,7 @@
 body {
   margin: 0;
   font-family: "Cormorant", "Source Serif 4", serif;
-  background: url(PierisJaponica5.png);
+  background: url(PierisJaponica6.png);
   background-size: cover;
   width: 100%;
   min-height: 100dvh;
@@ -87,7 +87,7 @@ h1 {
     color: white;
     height: 58vh;
     width: 26vh;
-    box-shadow: 6px 6px 15px rgb(216, 255, 207);
+    box-shadow: 6px 6px 23px rgb(53, 70, 49);
     align-items: center;
     background: rgb(110, 182, 110);
     margin: 0;
@@ -142,7 +142,7 @@ ul {
   font-weight: bold;
   min-height: 400px;
   margin: 0;
-  box-shadow: 1px 1px 11px rgb(52, 90, 52);
+  box-shadow: 1px 1px 19px rgb(52, 90, 52);
   color: rgb(171, 189, 163);
   padding: 1vh;
 }
@@ -194,6 +194,6 @@ ul {
 
 #card1, #card2 {
     display: flex;
-    box-shadow: 6px 6px 16px rgb(216 255 207);
+    box-shadow: 1px 1px 19px rgb(52, 90, 52);
     gap: 10vh
 }
