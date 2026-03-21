@@ -126,9 +126,10 @@ ul {
 
 .supercontainer {
     display: flex;
+    flex: 1;
     flex-wrap: wrap;
     flex-direction: column;
-    justify-content: flex-start;  
+    align-items:space-between;  
     gap: 3vh;
 }
 
@@ -179,6 +180,7 @@ ul {
     font-weight: bold;
     justify-content: center;
     align-items:center;
+    margin-top: auto;
     color: rgb(255, 255, 255);
     text-shadow: 3px 3px 8px rgb(188, 255, 156);
     padding: 35px 0;
