@@ -8,8 +8,9 @@ body {
 }
 
 img {
-    width: 27vh;
-    height: auto;
+  width: 100%;
+  max-width: 250px;
+  height: auto;
 }
 
 
