@@ -167,7 +167,7 @@ ul {
     align-items:center;
     color: white;
     height: 38vh;
-    width: 100%;
+    max-width: 100dvh;
     box-shadow: 6px 6px 23px rgb(53, 70, 49);
     align-items: center;
     background: rgb(110, 182, 110);
