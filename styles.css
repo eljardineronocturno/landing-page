@@ -165,12 +165,12 @@ ul {
     justify-content:center;
     align-items:center;
     color: white;
-    height: 38vh;
-    max-width: 100dvh;
+    height: auto;
+    width: 80%;
+    padding: 25px;
     box-shadow: 6px 6px 23px rgb(53, 70, 49);
     align-items: center;
     background: rgb(110, 182, 110);
-    margin: 0;
 }
 
 
@@ -213,6 +213,7 @@ ul {
   background: url(Foto4.jpg);
   background-position: center 30%;
   background-size: cover;
+  filter: brightness(10px);
   padding: 40px 20px;
   min-height: 30dvh;
 }
