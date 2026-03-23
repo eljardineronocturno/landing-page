@@ -185,6 +185,8 @@ ul {
     margin-top: auto;
     color: rgb(255, 255, 255);
     text-shadow: 3px 3px 8px rgb(188, 255, 156);
+    width: 100%;
+    min-width: 400px;
     padding: 35px 0;
     border-bottom: 3px groove darkgreen;
     background: url(PierisJaponica5.png);
@@ -248,7 +250,6 @@ display: flex;
   .container2,
   .container3 {
     flex-direction: row;
-    padding: 18vh;
   }
 
   .sidebar {
