@@ -80,20 +80,6 @@ h1 {
     margin: 0;
 }
 
-.sidebar {
-    display: flex;
-    flex-direction: column;
-    justify-content:center;
-    align-items:center;
-    color: white;
-    height: 58vh;
-    width: 26vh;
-    box-shadow: 6px 6px 23px rgb(53, 70, 49);
-    align-items: center;
-    background: rgb(110, 182, 110);
-    margin: 0;
-}
-
 .sidebar ul {
     margin: 0;
 }
@@ -150,6 +136,7 @@ ul {
   padding: 3px;
 }
 
+
 .c1 {
   display: flex;
   flex-direction: column;
@@ -165,11 +152,28 @@ ul {
 
 .container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    gap: 15px;
     justify-content:space-between;
-    padding: 0 20px;
-    align-items: center;
+    padding: 10px;
+    align-items:center;
 }
+
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    color: white;
+    height: 38vh;
+    width: 100%;
+    box-shadow: 6px 6px 23px rgb(53, 70, 49);
+    align-items: center;
+    background: rgb(110, 182, 110);
+    margin: 0;
+}
+
 
 .footer {
     display: flex;
@@ -192,7 +196,8 @@ ul {
 .cards {
     display: flex;
     gap: 10px;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
     flex-wrap: wrap;
 }
 
@@ -204,11 +209,11 @@ ul {
 
 .container2 {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   background: url(Foto4.jpg);
   background-position: center 30%;
   background-size: cover;
-  padding: 18vh;
+  padding: 40px 20px;
   min-height: 30dvh;
 }
 
@@ -216,11 +221,37 @@ ul {
 
 .container3 {
 display: flex;
-  flex-direction: row;
+  flex-direction: column;
   background: url(Foto2.jpg);
   background-position: center 30%;
   background-size: cover;
-  padding: 18vh;
+  padding: 40px 20px;
   min-height: 30dvh;
+
+}
+
+
+@media (min-width: 768px) {
+
+  .container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .cards {
+    flex-direction: row;
+  }
+
+  .container2,
+  .container3 {
+    flex-direction: row;
+    padding: 18vh;
+  }
+
+  .sidebar {
+    width: 26vh;
+    height: 58vh;
+  }
 
 }
