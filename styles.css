@@ -186,7 +186,6 @@ ul {
     color: rgb(255, 255, 255);
     text-shadow: 3px 3px 8px rgb(188, 255, 156);
     width: 100%;
-    min-width: 400px;
     padding: 35px 0;
     border-bottom: 3px groove darkgreen;
     background: url(PierisJaponica5.png);
@@ -215,9 +214,9 @@ ul {
   background: url(Foto4.jpg);
   background-position: center 30%;
   background-size: cover;
-  width: 100%;
+  min-width: 100%;
   padding: 40px 20px;
-  min-height: 30dvh;
+  min-height: 50%;
 }
 
 
@@ -228,9 +227,9 @@ display: flex;
   background: url(Foto2.jpg);
   background-position: center 30%;
   background-size: cover;
-  width: 100%;
+  min-width: 100%;
   padding: 40px 20px;
-  min-height: 30dvh;
+  min-height: 50%;
 
 }
 
@@ -250,6 +249,7 @@ display: flex;
   .container2,
   .container3 {
     flex-direction: row;
+    min-height: 40dvh;
   }
 
   .sidebar {
