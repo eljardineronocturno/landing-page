@@ -242,6 +242,13 @@ ul {
   justify-content: center;
   z-index: 2;
 }
+
+.sidebar3,
+.sidebar3 * {
+  position: relative;
+  z-index: 2;
+}
+
  .sidebar3 img {
   width: 200px;   /* ajustá a gusto */
   height: auto;   /* mantiene proporción */
