@@ -182,11 +182,10 @@ ul {
     justify-content: center;
     align-items:center;
     margin-top: auto;
-    margin: 0;
     color: rgb(255, 255, 255);
     text-shadow: 3px 3px 8px rgb(188, 255, 156);
     width: 100%;
-    padding: 35px 0;
+    padding: 40px 20px;
     border-bottom: 3px groove darkgreen;
     background: url(PierisJaponica5.png);
     background-position: center 55%;
